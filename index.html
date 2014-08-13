@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Yuren's Portfolio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Yuren Ju</h1>
+							<p>Open Source Developer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a target="_blank" href="https://twitter.com/yurenju" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a target="_blank" href="https://facebook.com/yurenju" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a target="_blank" href="https://github.com/yurenju" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:yurenju@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi, I'm <strong>Yuren</strong></h2>
+								<p>
+									I'm a programmer who is focusing on open source
+									software, opendata hacking and love to join open source community :-)
+								</p>
+							</header>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Work</h2>
+							</header>
+
+							<div class="project">
+								<div class="thumbnail"><img src="images/firefoxos.png" alt="Firefox OS Logo"></div>
+								<div class="content">
+									<h4>Build system of Firefox OS Gaia</h4>
+									<p>
+										Firefox OS is a web based and open-source operating system for smartphones, tablets and smart TVs. Gaia is the user interface of Firefox OS, which includes window manager, notification bar, homescreen and default core apps. Gaia build system is responsible for generating preload data for the device, customization mechanism, localization, optimization and a part of testing mechanism.
+									</p>
+									<p>
+										<strong>Responsibilities</strong>:
+										I'm candidate of gaia build system module owner, proposed customization mechanism and refactoring plan for more reliable architecture, also added unit/integration test for build system.
+									</p>
+									<p><strong>Skills</strong>: Javascript, Makefile, xpcshell, Testing (Mocha)</p>
+									<p><strong>Related Links</strong>:
+										<a target="_blank" href="https://github.com/mozilla-b2g/gaia">Github</a>,
+										<a target="_blank" href="https://wiki.mozilla.org/Modules/FirefoxOS">Firefox OS Module</a>,
+										<a target="_blank" href="https://wiki.mozilla.org/Gaia/Build/Roadmap">Gaia Build System Roadmap</a>
+									</p>
+								</div>
+							</div>
+							<div class="project">
+								<div class="thumbnail">
+									<a href="https://www.youtube.com/watch?v=JvXZ2bpX15M" target="_blank">
+										<div class="mozart"><i class="fa fa-youtube-play"></i></div>
+									</a>
+								</div>
+								<div class="content">
+									<h4>Mozart</h4>
+									<p>
+										Mozart is a musical conductor game and an experimental orchestra system by multiple computers. It is also a project of Node Knockout 2013 and received the second highest score for innovation.
+									</p>
+									<p>
+										<strong>Responsibilities</strong>: mobile client for remote control, experiment leap motion control
+									</p>
+									<p><strong>Skills</strong>: Javascript</p>
+									<p><strong>Related Links</strong>:
+										<a target="_blank" href="https://github.com/moz-art/mozart">Github</a>,
+										<a target="_blank" href="https://www.youtube.com/watch?v=JvXZ2bpX15M">Demo Video</a>,
+										<a target="_blank" href="http://nodeknockout.com/entries?sort=innovation">Leaderboard for Innovation</a>
+									</p>
+								</div>
+							</div>
+							<div class="project">
+								<div class="thumbnail"><img src="images/mlymap.png" alt="mlymap - legislative election map"></div>
+								<div class="content">
+									<h4>Mlymap</h4>
+									<p>
+										Mlymap is information map for legislative election which can be used to understand vote percentage for every districts and every town/village per candidate. this is a g0v hackathon project.
+									</p>
+									<p><strong>Responsibilities</strong>: all project
+									</p>
+									<p><strong>Skills</strong>: Angular.js, Javascript, leaflet</p>
+									<p><strong>Related Links</strong>:
+										<a target="_blank" href="http://blog.yurenju.info/mlymap/">Website</a>,
+										<a target="_blank" href="https://github.com/yurenju/mlymap">Github</a>
+									</p>
+								</div>
+							</div>
+							<div class="project">
+								<div class="thumbnail"><img src="images/appy.png" alt="Appendectomy Project logo"></div>
+								<div class="content">
+									<h4>Appendectomy Project - 割闌尾計劃</h4>
+									<p>
+										Appendectomy Project is a project which was started after Sunflower Student Movement, we found some legislators only follow decision from their parties but didn’t listen voice from people, so we decide to start this project to help people recall legislator who doesn’t suit his position.
+									</p>
+									<p>
+										<strong>Responsibilities</strong>: Proposal and petition form, experiment feature for sending proposal pdf to convenience store for printing.
+									</p>
+									<p><strong>Skills</strong>: Angular.js, Javascript</p>
+									<p><strong>Related Links</strong>:
+										<a target="_blank" href="http://doc.appy.tw/print/">Website</a>,
+										<a target="_blank" href="https://github.com/appytw/appytw.github.io">Github</a>
+									</p>
+								</div>
+							</div>
+							<div class="project">
+								<div class="thumbnail"><img src="images/xd.png" alt="xd project logo"></div>
+								<div class="content">
+									<h4>XD Analyzer</h4>
+									<p>
+										XD Analyzer is a fun project to analyze how strong do you present when use an emotion such as “LOOOOOL”. this project is used to analyze posts from  facebook friends and counting the length of repeat characters such as O for “LOOOOL” or D for “XDDDDD” and use a wordcloud to present it. this is a project for IDEAS tech hakathon.
+									</p>
+									<p>
+										<strong>Responsibility</strong>: 3D cube implementation, wordcloud, debugging
+									</p>
+									<p><strong>Skills</strong>: Javascript, CSS</p>
+									<p><strong>Related Links</strong>:
+										<a target="_blank" href="http://xddddd.github.io/xd/">Website</a>,
+										<a target="_blank" href="https://github.com/XDDDDD/xd">Github</a>
+									</p>
+								</div>
+							</div>
+							<div class="project">
+								<div class="thumbnail"><img src="images/coscup.png" alt="COSCUP logo"></div>
+								<div class="content">
+									<h4>COSCUP</h4>
+									<p>
+										<strong>C</strong>onference for <strong>O</strong>pen <strong>S</strong>ource <strong>C</strong>oders, <strong>U</strong>sers, and <strong>P</strong>romoters - COSCUP is the biggest open source conference which is organized by local community in Taiwan. In this year, COSCUP have 1000 attendees, 90+ talks and a lot of booths of communities and sponsors to show their achievement and products.
+									</p>
+									<p><strong>Responsibilities</strong>:</p>
+									<ul>
+										<li><strong>2010</strong>: Photographer</li>
+										<li><strong>2011</strong>: IT for issue tracker and mailing and photographer leader</li>
+										<li><strong>2012</strong>: Program committee member</li>
+										<li><strong>2013</strong>: Program committee Chair: 8 tracks and 114 talks for this year and first day opening</li>
+									</ul>
+									<p><strong>Related Links</strong>:
+										<a target="_blank" href="http://coscup.org/">COSCUP Website</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>
+								Just like the projects which I contribute, I always want to improve
+								my life, my project and even my city. in Firefox OS project I was refactoring
+								build system from using python, bash, makefile, javascript to just one language -- Javascript.
+							</p>
+							<p>
+								and the same thing is happend on other projects for citizen, I
+								really love a slogan from <a href="http://g0v.tw/en-US/join.html">g0v community</a> --
+								"Ask not why nobody is doing this. You are 'nobody'."
+							</p>
+							<p>
+								That is why I love Open Source.
+							</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>
+								<a href="mailto:yurenju@gmail.com">
+									<img src="images/contact-me.jpg" width="300px" /><br />
+									Mail to Me!
+								</a>
+							</p>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+	</body>
+</html>
