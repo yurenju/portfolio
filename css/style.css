@@ -832,7 +832,7 @@
 	margin-bottom: 0.5em;
 }
 
-strong {
+.project > .content > h4, strong {
 	font-weight: 400;
 }
 
