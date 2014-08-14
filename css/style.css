@@ -149,11 +149,13 @@
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
+		margin-bottom: 1em;
+		font-weight: 600;
 	}
 
 	p, ul, ol, dl, table
 	{
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	br.clear
